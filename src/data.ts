@@ -41,7 +41,7 @@ export const workExperiences = [
   {
     position: "Software Engineer (Frontend Team)",
     company: "Ascend Nano Co.,Ltd",
-    url: "https://fb.me/makerzoo",
+    url: "https://www.ascendcorp.com/",
     years: ["October 2020", "Present"],
     details: [
       "Strong CSS (Styled-component, Material UI, Rebass, and Bootstrap) for maintaining the product.",
