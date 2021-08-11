@@ -14,7 +14,7 @@
     class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0"
   >
     {name}
-    <span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
+    <span class="block hidden sm:block -mt-1 text-base lg:text-lg">({nickname})</span>
   </h2>
   <p>
     <a href={`tel:${phone}`}>{phone}</a> | <a href={`mailto:${email}`}>{email}</a> | {location} | 
