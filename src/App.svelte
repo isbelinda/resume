@@ -81,7 +81,7 @@
         <li>
           <HideToggle />
           <span class="w-28 inline-block">{tech.section}</span>
-          <span>{tech.details}</span>
+          <span class="block sm:inline">{tech.details}</span>
         </li>
       {/each}
     </ul>
