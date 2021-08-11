@@ -62,6 +62,16 @@
 
   <section>
     <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+    <hr />
+
+    {#each workExperiences as exp}
+      <Work {...exp} />
+    {/each}
+  </section>
+
+  <section>
+    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">
       Technologies and Languages
     </h2>
@@ -79,31 +89,6 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
-    <hr />
-
-    <ul class="text-left list-disc pl-8">
-      {#each educations as edu}
-        <li>
-          <HideToggle />
-          <strong>{edu.head}</strong>, {edu.details}
-        </li>
-      {/each}
-    </ul>
-  </section>
-
-  <section>
-    <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
-    <hr />
-
-    {#each workExperiences as exp}
-      <Work {...exp} />
-    {/each}
-  </section>
-
-  <section>
-    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
 
@@ -116,6 +101,21 @@
           <a href="https://{project.url}" target="_blank" rel="noreferrer"
             ><strong>{project.url}</strong></a
           >
+        </li>
+      {/each}
+    </ul>
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
+    <hr />
+
+    <ul class="text-left list-disc pl-8">
+      {#each educations as edu}
+        <li>
+          <HideToggle />
+          <strong>{edu.head}</strong>, {edu.details}
         </li>
       {/each}
     </ul>
@@ -145,6 +145,10 @@
 </main>
 
 <style>
+  body {
+    color: #212121;
+  }
+
   main {
     overflow-x: hidden;
   }
@@ -154,7 +158,7 @@
   }
 
   section {
-    @apply my-4;
+    @apply my-8;
   }
 
   section h2 {
@@ -192,7 +196,7 @@
     }
 
     section {
-      @apply my-2;
+      @apply my-4;
     }
 
     section hr {

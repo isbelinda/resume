@@ -11,11 +11,8 @@
 <div class="work-experience">
   <HideToggle />
   <div class="flex font-bold mb-2 print:mb-1">
-    <div class="flex-1 text-left">{position}</div>
-    <div class="flex-0">
-      <a href={url} target="_blank" rel="noreferrer">{company}</a>
-    </div>
-    <div class="flex-1 text-right">{years.join("-")}</div>
+    <div class="flex-1 text-left">{position} - <a href={url} target="_blank" rel="noreferrer">{company}</a></div>
+    <div class="flex-0 text-right">{years.join(" - ")}</div>
   </div>
   <ul class="text-left list-disc pl-8 print:pl-6">
     {#each details as detail}
@@ -34,6 +31,9 @@
 
   a {
     text-decoration: underline;
+    font-size: 14px;
+    font-weight: normal;
+    color: #616161;
   }
 
   @media print {

@@ -1,152 +1,119 @@
-export const fullVersionLink = "https://manassarn-resume.vercel.app"
-export const sourceLink = "https://github.com/narze/resume"
+export const fullVersionLink = "https://manassarn-resume.vercel.app";
+export const sourceLink = "https://github.com/narze/resume";
 export const ogImageUrl =
-  "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
+  "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg";
 
 export const introData = {
-  name: "Manassarn Manoonchai",
-  nickname: "Noom",
-  phone: "+66863949474",
-  email: "manassarn@gmail.com",
-  github: "narze",
-  linkedin: "manassarnmanoonchai",
+  name: "Ornpreeya Punpongpanich",
+  nickname: "Bow",
+  phone: "+66829592491",
+  email: "ornpreeya.pun@gmail.com",
+  github: "isbelinda",
+  linkedin: "ornpreeya-pun",
   location: "Bangkok, Thailand",
-  website: "monosor.com",
-}
+  website: "",
+};
 
 export const technologies = [
   {
     section: "Languages:",
-    details:
-      "Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).",
+    details: "JavaScript, TypeScript, Node.js, Ruby",
   },
   {
     section: "Frameworks:",
     details:
-      "Ruby on Rails, ReactJS, NextJS, NestJS, Svelte, TailwindCSS, Bootstrap",
+      "ReactJS, Material UI, Rebass, Bootstrap, Ruby on Rails, Next.js, Angular.js",
   },
   {
     section: "Tools:",
-    details:
-      "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh",
+    details: "Git, Cypress, Robot Framework",
   },
-  {
-    section: "Other:",
-    details:
-      "AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare",
-  },
-]
+];
 
 export const educations = [
   {
-    head: "B.Eng. Computer Engineering",
-    details: "Chulalongkorn University, TH. 2007-2010 (GPA 3.45)",
+    head: "Bachelor of Science (B.S.) - Computer Science",
+    details: "Chandrakasem Rajabhat University, TH. 2007-2010 (GPA 2.7)",
   },
-]
+];
 
 export const workExperiences = [
   {
-    position: "Full-stack Developer, Co-founder",
+    position: "Software Engineer (Frontend Team)",
+    company: "Ascend Nano Co.,Ltd",
+    url: "https://fb.me/makerzoo",
+    years: ["October 2020", "Present"],
+    details: [
+      "Strong CSS (Styled-component, Material UI, Rebass, and Bootstrap) for maintaining the product.",
+      "Developing using Javascript framework (React).",
+      "Improving design for the project from UX/UI team.",
+      "Improving many new feature mini-apps in TrueMoney App",
+      "Experience with responsive and adaptive design with the mobile web app.",
+      "Experience with unit tests and automate testing using Cypress.js",
+    ],
+  },
+  {
+    position: "Frontend Developer",
     company: "EventPop",
     url: "https://eventpop.me",
-    years: ["2015", "Current"],
+    years: ["December 2017", "September 2020"],
     details: [
-      "Designed, developed and maintained several core services for EventPop website (Ticketing, Seating, Payment, Fee Calculation, Line Item, Billing, Reporting, APIs, etc.) using Ruby on Rails",
-      "Researched & applied improvements for development workflow. Testing libraries : RSpec, Guard, VCR, Capybara, Selenium, Cucumber, Timecop. CI/CD : CircleCI, Github Actions, Drone CI, ArgoCD, FluxCD, Terraform",
-      "Maintained server operations, deployments, containerization with Docker & Kubernetes, CI/CD. Also pioneered DevOps practices in the team",
-      "Integrated 3rd-party services : Kerry Express, DHL, Queue-It, Refund Protect, Skootar, Tanita Body Scale",
-      "Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway",
-    ],
-  },
-  {
-    position: "Maker, Co-founder",
-    company: "Maker Zoo",
-    url: "https://fb.me/makerzoo",
-    years: ["2014", "2016"],
-    details: [
-      "Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok",
-      "Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc",
-      "Developed hardware-related products for clients and startups",
-      "Developed smart door lock system for Hubba, a co-working space in Bangkok",
-      "Provided 3D-printing service & consultant",
-    ],
-  },
-  {
-    position: "Web / IoT Developer (Contract)",
-    company: "Box24",
-    url: "https://washbox24.com",
-    years: ["2015", "2016"],
-    details: [
-      "Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)",
-      "Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment",
+      "Strong CSS (Bootstrap) for maintaining the product.",
+      "Developed Ruby on Rails and Javascript framework (React).",
+      "Improved new features and adjusted new design(CI) for Eventpop.me",
+      "Completed Lucky door project using Ruby on Rails.",
+      "Worked with UX/UI designers to convert design, discussed many ideas, and contribute to the overall user experience of the products.",
+      "Experienced with responsive and mobile design, as well as cross-browser development and testing.",
+      "Built a cross-platform React UI which can be used on mobile and web.",
     ],
   },
   {
     position: "Web Developer",
-    company: "Figabyte",
-    url: "https://www.facebook.com/figabyte",
-    years: ["2011", "2014"],
+    company: "Socket9 Co.,Ltd",
+    url: "https://www.socket9.com",
+    years: ["April 2014", "December 2017"],
     details: [
-      "Developed several Facebook web apps with CodeIgniter, using Facebook API",
-      "Developed web platform using Ruby on Rails 3 & 4",
-      "Made iOS apps for clients using PhoneGap and RubyMotion",
+      "Strong CSS (LESS, SCSS, and Bootstrap) for maintaining the product.",
+      "Completed PaperSpace project in 3 months using React, Redux with Bootstrap, and worked closely with Backend team.",
+      "Developed many projects using AngularJS, ReactJS, and Vue.js.",
+      "Developed a Live chat project (demo version) using AngularJS and Firebase (Database Real-time).",
+      "Sometimes developed Backend for a demo using Node.js with MongoDB.",
+      "Collaborated with Backend engineers on data logic integration.",
+      "Worked closely with UX/UI, Project Manager, and Developer team to define tracking strategies including behavior tracking, the success of the project.",
+      "Ability to rapidly prototype and adjust in response to Project Manager feedback.",
     ],
   },
   {
-    position: "Part-time Web Developer",
-    company: "Wongnai Media (wongnai.com)",
-    url: "https://wongnai.com",
-    years: ["2010"],
+    position: "Programmer",
+    company: "Website BigBang Co.,Ltd",
+    url: "https://www.bigbang.co.th/",
+    years: ["Febuary 2013", "March 2014"],
     details: [
-      "Developed a small part of website using Java with Spring MVC Framework built with Apache Maven",
-      "Learned TDD practice & making early-stage startup",
+      "Built many websites using CSS and some PHP because any projects had the template with PHP.",
+      "Worked closely with the designer and built websites from PSD (Photoshop).",
     ],
   },
-]
+  {
+    position: "Programmer (Intern)",
+    company: "icomm avenu (Thailand) Co., Ltd.",
+    url: "-",
+    years: ["May - September 2010"],
+    details: [
+      "Research Library requirement from Programmer.",
+      "Created content for Photography (It's not available website).",
+    ],
+  },
+];
 
 export const projects = [
   {
-    name: "Manoonchai",
-    details:
-      "Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte",
-    url: "github.com/manoonchai",
+    name: "Translate api (Demo)",
+    details: "Mobile developer use translate for demo LiveChat project.",
+    url: "github.com/isbelinda/translate-api",
   },
-  {
-    name: "9armbot (Contributor)",
-    details:
-      "Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma",
-    url: "github.com/thananon/twitch_tools",
-  },
-  {
-    name: "Dotfiles",
-    details:
-      "macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)",
-    url: "github.com/narze/dotfiles",
-  },
-  {
-    name: "#100DaysOfCode",
-    details:
-      "My take on practicing modern frontend development by building small projects in 100 days",
-    url: "100daysofcode-narze.vercel.app",
-  },
-  {
-    name: "Baht.rb",
-    details: "Ruby gem to convert number to Thai Baht format",
-    url: "rubygems.org/gems/baht",
-  },
-  {
-    name: "Resumette",
-    details:
-      "Interactive & printable résumé with tailored skills fitted in single letter page (This page!)",
-    url: "manassarn-resume.vercel.app",
-  },
-]
+];
 
 export const interests = [
-  "Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
-  "Typing : 120+ words per minute (Colemak Mod-DH layout)",
-  "Games : Music games, FPS, MOBA, Puzzle",
-  "Music : EDM, Rock, Japanese",
+  "Areas : Coding, Photgraphy",
   "Remote working is a OK. I extensively use self time tracking app for all my works.",
-  "Pets : I have 3 dogs",
-]
+];
