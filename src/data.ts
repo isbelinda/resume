@@ -1,3 +1,5 @@
+/** @format */
+
 export const fullVersionLink = "https://ornpreeya-resume.vercel.app/";
 export const sourceLink = "https://github.com/isbelinda/resume";
 export const ogImageUrl =
@@ -38,6 +40,13 @@ export const educations = [
 ];
 
 export const workExperiences = [
+  {
+    position: "Senior Engineer (Frontend Team)",
+    company: "Ascend Nano Co.,Ltd",
+    url: "https://www.ascendcorp.com/",
+    years: ["January 2022", "Present"],
+    details: ["Mentor new joiner and junior.", "Manage tasks"],
+  },
   {
     position: "Software Engineer (Frontend Team)",
     company: "Ascend Nano Co.,Ltd",
